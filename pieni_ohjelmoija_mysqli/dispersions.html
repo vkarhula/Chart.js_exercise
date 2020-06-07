@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+            <title>Hajonnat</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+            <div class="sailio">
+                <h2>Hajonnat</h2>
+                <h3>Ikä</h3>
+                <div class="round_chart">
+                        <canvas id="dispersions1"></canvas>
+                </div>
+                <h3>Sukupuoli</h3>
+                <div class="round_chart">
+                        <canvas id="dispersions2"></canvas>
+                </div>
+                <h3>Työkokemus vuosina</h3>
+                <div class="round_chart">
+                        <canvas id="dispersions3"></canvas>
+                </div>
+                <!--
+                <div id="teksti1"></div>
+                <div id="teksti2"></div>
+                <div id="teksti3"></div> 
+                -->
+                <h3>Ohjelmointi yleisellä tasolla</h3>
+                <p>1 = Heikko, 2 = Välttävä, 3 = Tyydyttävä, 4 = Hyvä, 5 = Erittäin hyvä</p>
+                <div class="chart_bar">
+                        <canvas id="dispersions4"></canvas>
+                </div>
+                <h3>Web frontend</h3>
+                <div class="chart_bar">
+                        <canvas id="dispersions5"></canvas>
+                </div>
+                <h3>Web backend</h3>
+                <div class="chart_bar">
+                        <canvas id="dispersions6"></canvas>
+                </div>
+                <h3>Natiivi mobiili</h3>
+                <div class="chart_bar">
+                        <canvas id="dispersions7"></canvas>
+                </div>
+                <h3>Hybridi mobiili</h3>
+                <div class="chart_bar">
+                        <canvas id="dispersions8"></canvas>
+                </div>
+                <h3>Relaatiotietokannat</h3>
+                <div class="chart_bar">
+                        <canvas id="dispersions9"></canvas>
+                </div>
+                <h3>NoSQL-tietokannat</h3>
+                <div class="chart_bar">
+                        <canvas id="dispersions10"></canvas>
+                </div>            
+            </div>
+            <!-- javascript -->
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+            <script type="text/javascript" src="js/dispersions.js"></script>
+	</body>
+</html>

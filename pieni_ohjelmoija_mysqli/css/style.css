@@ -1,0 +1,49 @@
+label {
+    display: block;
+    line-height: 1.5;
+}
+.otsikko {
+    line-height: 1.5;
+    margin-top: 1em;
+    font-weight: bold;
+}
+input[type=number]{
+    width: 30%;
+}
+h2 {
+    color: #EC7B0A;
+}
+div {
+    padding: 0.5em 0.5em 0.5em 0;
+}
+.label_inline {
+    display: inline;
+}
+.sailio {
+    width: 80%;
+    margin: 30px auto;
+    font-family: sans-serif;
+}
+.round_chart {
+        width: 60%;
+        height: auto;
+        margin: 20px auto;
+        margin-bottom: 3em;
+}
+.chart_bar {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        margin-bottom: 3em;
+}
+.lihavoitu {
+    font-weight: bold;
+}
+button {
+    margin: 1em 0.25em 1em 0;
+    padding: 0.5em;
+}
+.active_button {
+    background-color: #2e6da4;
+    color: #ffffff;
+}

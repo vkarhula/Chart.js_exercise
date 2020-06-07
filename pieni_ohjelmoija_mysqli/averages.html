@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Keskiarvot</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sailio">
+            <h2>Keskiarvot</h2>
+                <div id="keskiarvo1" class="lihavoitu"></div>
+            	<div class="chart_bar">
+			<canvas id="averages1"></canvas>
+                </div>
+                <div id="keskiarvo2" class="lihavoitu"></div>
+                <div class="chart_bar">
+                        <canvas id="averages2"></canvas>
+                </div>
+                <!-- <div id="keskiarvo3"></div> -->
+                <h4>Ohjelmointiosaaminen, keskiarvot</h4>
+                <p>1 = Heikko, 2 = Välttävä, 3 = Tyydyttävä, 4 = Hyvä, 5 = Erittäin hyvä</p>
+                <div class="chart_bar">                
+                        <canvas id="averages3"></canvas>
+		</div>
+        </div>
+        <!-- javascript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script type="text/javascript" src="js/averages.js"></script>
+    </body>
+</html>
